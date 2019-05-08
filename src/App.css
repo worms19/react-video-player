@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.Progress-bar{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.width-70{
+  width: 70%;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 70%;
+  margin: 5.65px 0;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 12.7px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #5a7846, 0px 0px 1px #66884f;
+  background: #ca52a9;
+  border-radius: 14.1px;
+  border: 1px solid #704956;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1.9px 1.9px 1px #227199, 0px 0px 1.9px #2780ae;
+  border: 1px solid #568e61;
+  height: 24px;
+  width: 15px;
+  border-radius: 30px;
+  background: rgba(73, 149, 192, 0.81);
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -6.65px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #dc8dc6;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 12.7px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #5a7846, 0px 0px 1px #66884f;
+  background: #ca52a9;
+  border-radius: 14.1px;
+  border: 1px solid #704956;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1.9px 1.9px 1px #227199, 0px 0px 1.9px #2780ae;
+  border: 1px solid #568e61;
+  height: 24px;
+  width: 15px;
+  border-radius: 30px;
+  background: rgba(73, 149, 192, 0.81);
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 12.7px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #9f3181;
+  border: 1px solid #704956;
+  border-radius: 28.2px;
+  box-shadow: 1px 1px 1px #5a7846, 0px 0px 1px #66884f;
+}
+input[type=range]::-ms-fill-upper {
+  background: #ca52a9;
+  border: 1px solid #704956;
+  border-radius: 28.2px;
+  box-shadow: 1px 1px 1px #5a7846, 0px 0px 1px #66884f;
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 1.9px 1.9px 1px #227199, 0px 0px 1.9px #2780ae;
+  border: 1px solid #568e61;
+  height: 24px;
+  width: 15px;
+  border-radius: 30px;
+  background: rgba(73, 149, 192, 0.81);
+  cursor: pointer;
+  height: 12.7px;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #ca52a9;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #dc8dc6;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
